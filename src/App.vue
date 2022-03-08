@@ -43,7 +43,7 @@ main {
   background-color: var(--dark-grayish-blue);
   padding: 1.5rem;
   width: min(500px, 90vw);
-  border-radius: .5em;
+  border-radius: .8em;
   position: absolute;
   top: 43%;
   left: 50%;
@@ -54,7 +54,7 @@ main {
 main h1 {
   text-transform: uppercase;
   color: var(--neon-green);
-  font-size: clamp(.7rem, .8vw, .9rem);
+  font-size: clamp(.7rem, .9vw, .95rem);
   margin-bottom: 1rem;
   letter-spacing: 2px;
 }
