@@ -25,7 +25,7 @@ export default {
 <template>
   <main>
     <h1>advice #{{randomAdvice.id}}</h1>
-    <p class="quote">"{{randomAdvice.advice}}"</p>
+    <p class="quote">❝{{randomAdvice.advice}}❞</p>
     <div class="pattern-divider">
       <img  src="./assets/images/pattern-divider-mobile.svg" alt="">
     </div>
