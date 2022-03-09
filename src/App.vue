@@ -34,6 +34,10 @@ export default {
       <img class="dice" src="./assets/images/icon-dice.svg" alt="">
     </button>  
   </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/dvlapo">dvlapo</a>.
+  </div>
 </template>
 
 <style>
@@ -85,6 +89,20 @@ main h1 {
 
 .dice-holder:hover {
   box-shadow: 0px 0px 27px 0px var(--neon-green);
+}
+
+.attribution { 
+  font-size: 10px; 
+  text-align: center; 
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+   
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
 }
 
 </style>
